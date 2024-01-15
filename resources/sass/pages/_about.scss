@@ -1,0 +1,10 @@
+.ksn__about-us {
+    position: relative;
+    height: 100vh;
+
+    &::after {
+        content: "";
+    
+    }
+
+}

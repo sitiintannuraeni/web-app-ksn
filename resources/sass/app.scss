@@ -1,0 +1,268 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Bootstrap icons
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+// Pages
+@import 'pages';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+	border: none;
+	
+	.card-header {
+		border: none;
+		padding-bottom: 0;
+	}
+}
+
+#home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 700px;
+}
+
+.content .textBox h2 {
+    color: #333;
+    font-size: 2.8em;
+    line-height: 1.4em;
+    font-weight: 600;
+}
+
+.content .textBox h2 span {
+    color: #0174BE;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #0174BE;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.content .imgBox img {
+    max-width: 300px;
+}
+
+.prevCakes {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.prevCakes li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.prevCakes li:hover {
+    transform: translateY(-15px);
+}
+
+.prevCakes li img {
+    max-width: 70px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3876BF;
+    clip-path: circle(650px at right 850px);
+}
+
+.header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 70px;
+    position: relative;
+    color: #3876BF;
+}
+.header h2::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background: #3876BF;
+    bottom: -10px;
+    left: 50%;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+
+.main {
+    width: 800px;
+    height: 370px;
+    border-radius: 12px;
+    box-shadow: 0 5px 55px #848383;
+    position: relative;
+    overflow: hidden;
+}
+
+.sliderbar{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background: #3876Bf;
+    bottom: 0;
+    left: 0;
+
+}
+.card1{
+    width: 800px;
+    height: 290px;
+    display: flex;
+    padding: 23px 60px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.test {
+    background-color: #0174BE;
+}
+
+.card1::after{
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 0;
+    right: 0;
+    background: #2d72d9;
+    border-bottom-left-radius: 100%;
+}
+
+.card1 p{
+    font-size: 17px;
+    line-height: 21px;
+    opacity: 0.9;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile .name_job {
+    margin-bottom: 4px;
+    width: 80px;
+    height: 80px;
+}
+
+.name_job h2{
+    width: 370px;
+    height: 100px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+
+@media (max-width: 991px) {
+    #home {
+        padding: 60px 20px 120px;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content .textBox h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    .content .textBox p {
+        font-size: 15px;
+    }
+    .content .textBox {
+        max-width: 100%;
+    }
+    .circle {
+        clip-path: circle(250px at center bottom);
+    }
+    .content .imgBox {
+        max-width: 100%;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .content .imgBox img {
+        max-width: 230px;
+    }
+    .prevCakes {
+        bottom: 5px;
+    }
+    .prevCakes li img {
+        max-width: 45px;
+    }
+}
+
+@media (max-width: 373px) {
+    .content .textBox h2 {
+        font-size: 1.8em;
+    }
+    .content .textBox p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 307px) {
+    .content .textBox h2 {
+        font-size: 1.5em;
+    }
+}
