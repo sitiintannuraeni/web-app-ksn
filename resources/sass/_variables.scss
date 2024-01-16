@@ -1,7 +1,31 @@
 // Body
 $body-bg: #FFFFFF;
+$body-color: #273036;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: 'Poppins', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+$headings-color: #25396f;
+
+// Colour
+$primary: #0099ff;
+$secondary: #a2d9ff;
+$light: #f2f7ff;
+$success: #00cba9;
+$danger: #E7008A;
+$warning: #ff5500;
+$dark: #273036;
+$black: #273036;
+
+// Card
+$card-border-radius: 0.7em;
+$card-cap-bg: #FFFFFF;
+$card-cap-padding-x: 1.5rem;
+$card-cap-padding-y: 1.5rem;
+$card-spacer-x: 1.5rem;
+$card-spacer-y: 1.5rem;
+
+// Button
+$input-box-shadow: none;
+$min-contrast-ratio: 2.5;
