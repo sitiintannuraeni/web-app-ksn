@@ -8,10 +8,10 @@
       </button>
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">About Us</a>
-          <a class="nav-link" href="#">Service</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+          <a class="nav-link" href="#">Tentang Kami</a>
+          <a class="nav-link" href="#">Layanan</a>
+          <a class="nav-link" href="#">Kontak</a>
         </div>
       </div>
     </div>
