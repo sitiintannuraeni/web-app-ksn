@@ -3,7 +3,7 @@
         <div class="d-flex h-100 align-items-center justify-content-center">
             <div class="row flex-lg-row-reverse">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="{{ asset('assets/sample.png') }}" class="d-block mx-lg-auto img-fluid rounded-2 shadow-sm" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    <img src="{{ asset('assets/pplgxi.jpg') }}" class="d-block mx-lg-auto img-fluid rounded-2 shadow-sm" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6">
                     <div class="pt-5">
