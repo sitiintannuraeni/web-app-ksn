@@ -23,5 +23,19 @@
         @yield('content')
     </div>
     <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ asset('jquery/jquery-3.7.1.min.js') }}"></script>
+
+    <script>
+      $(document).ready(function () {
+	      $(".scroll").on("click", function (e) {
+		      e.preventDefault();
+		      let target = "#" + $(this).attr('target');
+
+		      $('html, body').animate({
+			      scrollTop: ($(target).offset().top - 100)
+		      }, 1000);
+	      })
+      })
+    </script>
 </body>
 </html>

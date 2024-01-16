@@ -1,4 +1,4 @@
-<div class="ksn__about-us h-100">
+<div class="ksn__about-us h-100" id="about-us">
     <div class="container position-relative h-100">
         <div class="d-flex h-100 align-items-center justify-content-center">
             <div class="row flex-lg-row-reverse">

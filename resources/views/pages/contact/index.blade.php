@@ -1,4 +1,4 @@
-<div class="h-100">
+<div class="h-100" id="contact">
     <div class="container position-relative h-100 py-5">
         <h2 class="text-center fw-semibold mb-4">Kontak</h2>
         <div class="row align-items-center justify-content-center">

@@ -20216,6 +20216,7 @@ textarea.form-control-lg {
 
 html, body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .card {
