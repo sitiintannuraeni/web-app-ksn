@@ -16,21 +16,12 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
     @stack('css')
-
-    <style>
-        .h100vh {
-            height: 100vh;
-        }
-
-        .h50 {
-            height: 80vh;
-        }
-        </style>
-
 </head>
 <body>
-    @include('partials.navbar')
-    @yield('content')
+    <div id="app">
+        @include('partials.navbar')
+        @yield('content')
+    </div>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

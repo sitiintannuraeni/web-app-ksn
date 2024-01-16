@@ -1,4 +1,4 @@
-<section id="home">
+<section id="home" class="h-100">
     <div class="circle"> </div>
     <div class="content">
         <div class="textBox d-flex flex-column align-items-start gap-3">

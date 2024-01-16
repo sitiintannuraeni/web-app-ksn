@@ -13,6 +13,14 @@
 // Pages
 @import 'pages';
 
+#app {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
 .card {
 	border: none;
 	
@@ -245,5 +253,14 @@
 @media (max-width: 307px) {
     .content .textBox h2 {
         font-size: 1.5em;
+    }
+}
+
+
+.section-service {
+    height: 100%;
+    
+    @include media-breakpoint-down(sm) {
+        height: unset;
     }
 }

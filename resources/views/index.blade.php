@@ -1,13 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="h100vh">
     @include('pages.home.index')
-</section>
-<section class="h100vh">
     @include('pages.about.index')
-</section>
-
-
-
+    @include('pages.service.index')
+    @include('pages.contact.index')
 @endsection
