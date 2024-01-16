@@ -20461,3 +20461,13 @@ html, body {
     height: unset;
   }
 }
+
+.ksn-navbar {
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 575.98px) {
+  .ksn-navbar {
+    display: unset;
+  }
+}
