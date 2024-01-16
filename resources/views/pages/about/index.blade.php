@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h1 class="fw-semibold lh-1 mb-3">Tentang Kami</h1>
-                    <p class="fw-light">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p class="fw-light">Kreasi Swala Nusantara merupakan sebuah start up yang bergerak dibidang industri kreatif dan pengembangan bisnis skala mikro kecil menengah yang memiliki sub bisnis pengembangan aplikasi, pengembangan sebuah brand, manajemen sosial media dan konsultan dalam industri kreatif.</p>
                 </div>
             </div>
         </div>
